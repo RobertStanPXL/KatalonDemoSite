@@ -1,0 +1,22 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20vh;
+    margin: 10px;
+}
+
+.oddTile {
+    background-color: blue;
+}
+.evenTile {
+    background-color: red;
+}
+.tileContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
